@@ -1,0 +1,25 @@
+{
+  "name": "lorem-baudelairesum",
+  "version": "1.0.0",
+  "description": "baudelaire poems tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bassochette/lorem-baudelairesum"
+  },
+  "author": "Julien Prugne",
+  "main": "cli.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "lorem-baudelairesum": "cli.js"
+  },
+  "keywords": [
+    "lorem ipsum",
+    "baudelaire"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
